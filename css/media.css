@@ -1,0 +1,77 @@
+@media (min-width: 320px) and (max-width: 768px) {
+  
+
+  .about_us__wrapper{
+    flex-wrap: wrap;
+  }
+
+  .about_us__image{
+    max-width: 100%;
+  }
+
+  .about_us__image img{
+    height: auto;
+  }
+
+  .about_us__content{
+    left: 0;
+  }
+
+.work_steps_foto{
+  display: none;
+}
+
+.work_steps_item h4:before{
+content: '';
+transform: rotate(90deg);
+}
+
+  .button_journy_with_us{
+    margin-top: 20px;
+  }
+  
+  .journy_with_us h4{
+  margin-right: 0;
+}
+
+.testimonials_info_wrapper{
+  justify-content: center;
+}
+
+.subscribe{
+  justify-content: center;
+}
+
+.input_email{
+  border-radius:25px 25px;
+  margin-bottom: 20px;
+}
+
+.button_email{
+  border-radius:25px 25px;
+}
+
+.input_info:nth-child(2){
+  margin-left: 0;
+}
+.input_info:nth-child(4){
+  margin-left: 0;
+}
+
+.social_block a{
+flex: 1 1 40px;
+}
+
+.footer_block:nth-child(4) span{
+  text-align: center;
+  padding-top: 10px;
+}
+
+}
+
+@media (min-width: 769px) and (max-width: 1366px) {
+
+.work_steps_item h4:before{
+  transform: rotate(-65deg);
+}
+}
